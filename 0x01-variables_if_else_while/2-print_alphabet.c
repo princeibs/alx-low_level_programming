@@ -12,9 +12,12 @@
 
 int main(void)
 {
-	for (char ch = 'a'; ch <= 'z'; ch++)
+	int ch = 97;
+
+	while (ch <= 122)
 	{
 		putchar(ch);
+		ch++;
 	}
 	putchar(10);
 
