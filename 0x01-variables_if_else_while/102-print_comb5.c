@@ -31,7 +31,7 @@ int main(void)
 					putchar(32);
 					putchar(c);
 					putchar(d);
-					if (a <= 56 || b <= 56 || c <= 56 || d <= 56)
+					if (a <= 56 || b <= 55 || c <= 56 || d <= 56)
 					{
 						putchar(44);
 						putchar(32);
@@ -47,5 +47,5 @@ int main(void)
 	}
 	putchar(10);
 
-	return (10);
+	return (0);
 }
