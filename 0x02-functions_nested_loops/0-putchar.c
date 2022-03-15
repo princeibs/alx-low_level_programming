@@ -1,16 +1,16 @@
-#include "main.i"
+#include "main.h"
+
 /**
  * main - prints _putchar
  *
  * Description: prints the text _putchar to the standard output
  *
  * Return: 0 (Success)
- *
  */
 
 int main(void)
 {
-	char word[8] = "_putchar";
+	char out[9] = "_putchar";
 
 	int i = 0;
 
@@ -19,6 +19,7 @@ int main(void)
 		_putchar(out[i]);
 		i++;
 	}
+
 	_putchar('\n');
 
 	return (0);
