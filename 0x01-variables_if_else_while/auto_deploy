@@ -1,0 +1,4 @@
+#!/bin/bash
+git update-index --chmod=+x --add $1
+git commit -m"$2"
+git push
